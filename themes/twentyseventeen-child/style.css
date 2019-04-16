@@ -16,7 +16,12 @@
 	background-color: #E6E6FA;
 }
 
-.site-description {
-	font-style: arial;
+p.site-description {
+	font-style: serif;
 	font-size: 30px;
+}
+
+.site-title {
+	font-style: serif;
+	font-size: 50px;
 }
