@@ -21,42 +21,37 @@
 
 			endwhile; // End of the loop.
 			?>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie-edge">
-</head>
-			<title>My Fitness Map</title>
-	<style>
-	#map{
-	height:400px;
-	width:100%;
-<body>
-	<h1> join me on this fitness journey at one of these locations </h1>
-	<div id="map"></div>
+<html>
+  <head>
+    <style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
     <script>
-    function initMap(){
-    	//Map options
-    	var options = {
-    		zoom:8,
-    		center:{lat:38.9072,lng:-77.0369}
-    	}
-    	// new map
-    	var map = new
-    	google.maps.Map(document.getElementByID('map'), options);
-    	//Add marker
-    	var marker = new google.maps.Marker({
-    		position: {}
-    	});
-
-    }
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
     </script>
-	<script async defer
+    <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHwzVMHtd0_AgjBgj5A_Kd0mi3j48CSvU&callback=initMap">
-    </script>			
-				</body>
-				</html>
+    </script>
+  </body>
+</html>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
