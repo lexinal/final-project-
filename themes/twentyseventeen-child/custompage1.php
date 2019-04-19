@@ -43,32 +43,42 @@ function initMap() {
   // The map, centered at Uluru
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 12, center: uluru});
-  // The marker, positioned at Uluru
+  // The marker, positioned at Orange Theory
   var marker = new google.maps.Marker({
   	 position:{lat: 38.901672, lng:-77.016350},
   	 map: map
   	 
   	});
-
+//The marker is positioned at Corepower
   var marker = new google.maps.Marker({
   	 position:{lat: 38.900092, lng:-77.024149},
   	 map: map
   	 
   	});
-
+//The marker is positioned at F45
   var marker = new google.maps.Marker({
   	 position:{lat: 38.916855, lng:-77.026642},
   	 map: map
   	 
   	});
-
+//The Marker is positioned at 305 Fitness
   var marker = new google.maps.Marker({
   	 position:{lat: 38.920085, lng:-77.030798},
   	 map: map
   	 
   	});
+//Positioned at Barry's Bootcamp
+var marker = new google.maps.Marker({
+  	 position:{lat: 38.909298, lng:-77.044412},
+  	 map: map
+  	 
+  	});
 
-
+var marker = new google.maps.Marker({
+  	 position:{lat: 38.906014, lng:-77.032074},
+  	 map: map
+  	 
+  	});
 
 }
     </script>
