@@ -47,8 +47,16 @@ function initMap() {
   var marker = new google.maps.Marker({
   	 position:{lat: 38.901672, lng:-77.016350},
   	 map: map
-  	 
   	});
+
+  	var infoWindow = new google.maps.InfoWindow({
+  		content:'<p>Orange Theory Fitness</p>'
+  	});
+
+  	marker.addListener('click', function(){
+  		infoWindow.open(map, marker);
+  	});
+
 //The marker is positioned at Corepower
   var marker = new google.maps.Marker({
   	 position:{lat: 38.900092, lng:-77.024149},
@@ -74,8 +82,15 @@ var marker = new google.maps.Marker({
   	 
   	});
 
+//Marker is Fuse Pilates
 var marker = new google.maps.Marker({
   	 position:{lat: 38.906014, lng:-77.032074},
+  	 map: map
+  	 
+  	});
+//marker for exorcist steps
+var marker = new google.maps.Marker({
+  	 position:{lat: 38.9055444, lng:-77.0701639},
   	 map: map
   	 
   	});
