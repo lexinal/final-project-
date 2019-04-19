@@ -44,18 +44,20 @@ function initMap() {
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 12, center: uluru});
   // The marker, positioned at Orange Theory
-  var marker = new google.maps.Marker({
+ 
+  var orange = new google.maps.Marker({
   	 position:{lat: 38.901672, lng:-77.016350},
   	 map: map
   	});
 
-  	var infoWindow = new google.maps.InfoWindow({
-  		content:'<p>Orange Theory Fitness</p>'
-  	});
+  var infoWindow = new google.maps.InfoWindow({
+  	content: '<h1>Orange Theory</h1>'
+  });
 
-  	marker.addListener('click', function(){
-  		infoWindow.open(map, marker);
-  	});
+  orange.addListener('click', function(){
+  	infoWindow.open(map,orange);
+  });
+
 
 //The marker is positioned at Corepower
   var marker = new google.maps.Marker({
