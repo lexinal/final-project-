@@ -5,3 +5,14 @@ function my_theme_enqueue_styles() {
  
 }
 ?>
+
+
+register_sidebar( array(
+  'name' => '404 Page',
+  'id' => '404',
+  'description'  => __( 'Content for your 404 error page goes here.' ),
+  'before_widget' => '<div id="error-box">',
+  'after_widget' => '</div>',
+  'before_title' => '<h3 class="widget-title">',
+  'after_title' => '</h3>'
+) );
