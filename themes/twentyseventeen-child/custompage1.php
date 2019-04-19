@@ -32,23 +32,23 @@
     </style>
   </head>
   <body>
-    <h3>My Google Maps Demo</h3>
+    <h3>Discover Fitness Locations to Jumpstart Your Journey</h3>
     <!--The div element for the map -->
     <div id="map"></div>
     <script>
 // Initialize and add the map
 function initMap() {
   // The location of Uluru
-  var uluru = {lat: -25.344, lng: 131.036};
+  var uluru = {lat: 38.9072, lng: -77.0369};
   // The map, centered at Uluru
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
+      document.getElementById('map'), {zoom: 12, center: uluru});
   // The marker, positioned at Uluru
   var marker = new google.maps.Marker({position: uluru, map: map});
 }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHwzVMHtd0_AgjBgj5A_Kd0mi3j48CSvU&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv5BVPXJMDEx-398zhzCKQmqjke39Dqfg&callback=initMap">
     </script>
   </body>
 </html>
