@@ -62,6 +62,12 @@ function initMap() {
   	 
   	});
 
+  var marker = new google.maps.Marker({
+  	 position:{lat: 38.920085, lng:-77.030798},
+  	 map: map
+  	 
+  	});
+
 
 
 }
