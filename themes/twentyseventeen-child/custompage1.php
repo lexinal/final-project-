@@ -34,6 +34,8 @@
   <body>
     <h3>Discover Fitness Locations to Jumpstart Your Journey</h3>
     <p> When it comes to fitness, there are plenty of options in the D.C. area. The variety and choices are endless. From running locations to organized classes, you will be in for a sweat fest! Just try not to forget your towel and water source! </p>
+    <img src="https://www.shutterstock.com/image-vector/cute-avocado-cartoon-character-doing-exercises-567313462.jpg" alt="Workout photo">
+
     <!--The div element for the map -->
     <div id="map"></div>
     <script>
