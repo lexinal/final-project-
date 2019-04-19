@@ -33,6 +33,7 @@
   </head>
   <body>
     <h3>Discover Fitness Locations to Jumpstart Your Journey</h3>
+    <p> When it comes to fitness, there are plenty of options in the D.C. area. The variety and choices are endless. From running locations to organized classes, you will be in for a sweat fest! Just try not to forget your towel and water source! </p>
     <!--The div element for the map -->
     <div id="map"></div>
     <script>
@@ -53,12 +54,12 @@ function initMap() {
   	 map: map
   	});
 
-  var infoWindow = new google.maps.InfoWindow({
+  var infoWindow1 = new google.maps.InfoWindow({
   	content: '<h1>Orange Theory</h1>'
   });
 
   marker.addListener('click', function(){
-  	infoWindow.open(map,marker);
+  	infoWindow1.open(map,marker);
   });
 
 
@@ -68,12 +69,12 @@ function initMap() {
   	 map: map
   	});
 
-  var infoWindow = new google.maps.InfoWindow({
+  var infoWindow2 = new google.maps.InfoWindow({
   	content: '<h1>Corepower</h1>'
   });
 
   marker.addListener('click', function(){
-  	infoWindow.open(map,marker);
+  	infoWindow2.open(map,marker);
   });
 
   
@@ -84,6 +85,15 @@ function initMap() {
   	 
   	});
 
+  var infoWindow3 = new google.maps.InfoWindow({
+  	content: '<h1>F45 Fitness</h1>'
+  });
+
+  marker.addListener('click', function(){
+  	infoWindow3.open(map,marker);
+  });
+
+
 
 //The Marker is positioned at 305 Fitness
   var marker = new google.maps.Marker({
@@ -91,6 +101,15 @@ function initMap() {
   	 map: map
   	 
   	});
+
+   var infoWindow4 = new google.maps.InfoWindow({
+  	content: '<h1>305 Fitness</h1>'
+  });
+
+  marker.addListener('click', function(){
+  	infoWindow4.open(map,marker);
+  });
+
 
 
 //Positioned at Barry's Bootcamp
@@ -100,6 +119,14 @@ var marker = new google.maps.Marker({
   	 
   	});
 
+  var infoWindow5 = new google.maps.InfoWindow({
+  	content: '<h1>Corepower</h1>'
+  });
+
+  marker.addListener('click', function(){
+  	infoWindow5.open(map,marker);
+  });
+
 
 //Marker is Fuse Pilates
 var marker = new google.maps.Marker({
@@ -108,13 +135,32 @@ var marker = new google.maps.Marker({
   	 
   	});
 
+  var infoWindow6 = new google.maps.InfoWindow({
+  	content: '<h1>Fuse Pilates</h1>'
+  });
+
+  marker.addListener('click', function(){
+  	infoWindow6.open(map,marker);
+  });
+
+
 //marker for exorcist steps
 var marker = new google.maps.Marker({
   	 position:{lat: 38.9055444, lng:-77.0701639},
   	 map: map
   	 
   	});
+ 
+ var infoWindow7 = new google.maps.InfoWindow({
+  	content: '<h1>Exorcist Steps</h1>'
+  });
+
+  marker.addListener('click', function(){
+  	infoWindow7.open(map,marker);
+  });
+
 } 
+
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv5BVPXJMDEx-398zhzCKQmqjke39Dqfg&callback=initMap">
