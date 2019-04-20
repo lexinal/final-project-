@@ -19,16 +19,16 @@ get_header(); ?>
 			<section class="error-404 not-found">
 				<header class="page-header">
 					<h1 class="page-title"><?php _e( 'Woah! This looks like a fitness disaster.', 'twentyseventeen' ); ?></h1>
+					<?php get_search_form(); ?>
 				</header><!-- .page-header -->
 				<div class="page-content">
 					<p><?php _e( 'It looks like your fitness dreams were not found here.
-					 Perhaps try a search to be reunited with your fitness goals?', 'twentyseventeen' ); ?></p>
+					 Perhaps try a search on the left to be reunited with your fitness goals?', 'twentyseventeen' ); ?></p>
 					 
-					 <?php $image_url='https://cdn.telanganatoday.com/wp-content/uploads/2018/03/gym-2.jpg';?>
+					 <img src="https://cdn.telanganatoday.com/wp-content/uploads/2018/03/gym-2.jpg" alt="Disappointed Fitness Guy">
 
 
-
-					<?php get_search_form(); ?>
+					
 
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->
