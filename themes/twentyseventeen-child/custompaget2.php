@@ -20,31 +20,13 @@
 			endwhile; // End of the loop.
 			?>
 
-<p> hello! Please fill out the contact box below. </p>			
-<div class="container">
- 	<form action="action_page.php">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div> 
-
+<form action="mail.php" method="POST">
+<p>Name</p> <input type="text" name="name">
+<p>Email</p> <input type="text" name="email">
+<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+<input type="submit" value="Send"><input type="reset" value="Clear">
+</form>
 
 
 
