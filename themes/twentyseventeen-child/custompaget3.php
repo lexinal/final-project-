@@ -26,20 +26,20 @@
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="img1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
+    <img src="https://cdn.styleblueprint.com/wp-content/uploads/2017/09/StyleBlueprintGuide_Orange_Theory_Midtown_Nashville_PRODUCT_03-2017-16.jpg" style="width:100%">
+    <div class="text">Orange Theory</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="img2.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
+    <img src="https://a.mktgcdn.com/p/UjZvnPRHw_a9FJfgvI2V8LHU6GB0-_BehdUdtIi6uTk/5472x3648.jpg" style="width:100%">
+    <div class="text">Corepower Yoga</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="img3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <img src="http://prod.static9.net.au/_/media/Network/Images/2016/10/21/14/32/161021COACH_f45.gif" style="width:100%">
+    <div class="text">F45</div>
   </div>
 
   <!-- Next and previous buttons -->
