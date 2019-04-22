@@ -27,19 +27,19 @@
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="https://cdn.styleblueprint.com/wp-content/uploads/2017/09/StyleBlueprintGuide_Orange_Theory_Midtown_Nashville_PRODUCT_03-2017-16.jpg" style="width:100%">
-    <div class="text">Orange Theory</div>
+    <div class="text">Orange Theory: It offers group personal training workouts based on high intensity interval training that blend cardiovascular and strength training.</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="https://a.mktgcdn.com/p/UjZvnPRHw_a9FJfgvI2V8LHU6GB0-_BehdUdtIi6uTk/5472x3648.jpg" style="width:100%">
-    <div class="text">Corepower Yoga</div>
+    <div class="text">Corepower Yoga: roots an intensely physical workout in the mindfulness of yoga, helping students change their bodies and their lives. Live Your Power.</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="http://prod.static9.net.au/_/media/Network/Images/2016/10/21/14/32/161021COACH_f45.gif" style="width:100%">
-    <div class="text">F45</div>
+    <div class="text">F45:The concept of F45 is simple: all of the studios, whichever part of the world they are in, offer the same 45 minute high-intensity, circuit training class for studio members. The "F" - in case you were wondering - stands for "functional", relating to the engagement in exercises that mimic or recreate everyday movement.</div>
   </div>
 
   <!-- Next and previous buttons -->
