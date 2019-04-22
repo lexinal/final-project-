@@ -19,7 +19,8 @@
 
 			endwhile; // End of the loop.
 			?>
-
+			<h2> Hello Friends! </h2>
+			<p> I personally tried a free week at each of these fitness locations and I narrowed it down to my three personal favs. These three workouts will fuel your mind and body. I highly recommend to check out these places. </p>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
