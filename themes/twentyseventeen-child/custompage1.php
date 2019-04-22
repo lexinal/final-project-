@@ -32,9 +32,13 @@
     </style>
   </head>
   <body>
+
+  	<div align="left">
+  	<img src="https://www.escapetothepalace.com/wp-content/uploads/2018/07/jane-fitness-peitoral.gif" alt="Workout photo">
+  </div>
+
     <h3>Discover Fitness Locations to Jumpstart Your Journey</h3>
     <p> When it comes to fitness, there are plenty of options in the D.C. area. The variety and choices are endless. From running locations to organized classes, you will be in for a sweat fest! Just try not to forget your towel and water source! </p>
-    <img src="https://www.shutterstock.com/image-vector/cute-avocado-cartoon-character-doing-exercises-567313462.jpg" alt="Workout photo">
 
     <!--The div element for the map -->
     <div id="map"></div>
@@ -42,10 +46,10 @@
 // Initialize and add the map
 function initMap() {
   // The location of Uluru
-  var uluru = {lat: 38.9072, lng: -77.0369};
-  // The map, centered at Uluru
+  var washington = {lat: 38.9072, lng: -77.0369};
+  // The map, centered at washington, d.c.
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 12, center: uluru});
+      document.getElementById('map'), {zoom: 12, center: washington});
 
   
 

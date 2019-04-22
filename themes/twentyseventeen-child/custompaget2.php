@@ -31,7 +31,7 @@
 <br><p>Name</p> <input type="text" name="name">
 <br><p>Email</p> <input type="text" name="email">
 <br><p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-<input type="submit" value="Send"><input type="reset" value="Clear">
+<input type="submit" value="Send Your Love!"><input type="reset" value="Clear">
 </form>
 
 <?php $name = $_POST['name'];
@@ -42,7 +42,7 @@ $recipient = "alexiadnal@gmail.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!";
+echo "Thank You so much for your message! Brace yourself for a message from yours truly!";
 ?>
 
 
