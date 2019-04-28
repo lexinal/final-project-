@@ -21,8 +21,6 @@
 
 			endwhile; // End of the loop.
 			?>
-<html>
-  <head>
     <style>
       /* Set the size of the div element that contains the map */
       #map {
@@ -30,8 +28,7 @@
         width: 100%;  /* The width is the width of the web page */
        }
     </style>
-  </head>
-  <body>
+ 
 
   	<div align="left">
   	<img src="https://www.escapetothepalace.com/wp-content/uploads/2018/07/jane-fitness-peitoral.gif" alt="Workout photo">
@@ -171,8 +168,7 @@ var marker = new google.maps.Marker({
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv5BVPXJMDEx-398zhzCKQmqjke39Dqfg&callback=initMap">
     </script>
-  </body>
-</html>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
