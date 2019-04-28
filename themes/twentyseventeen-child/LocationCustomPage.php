@@ -42,7 +42,7 @@
     <script>
 // Initialize and add the map
 function initMap() {
-  // The location of Uluru
+  // The location of Washington, DC
   var washington = {lat: 38.9072, lng: -77.0369};
   // The map, centered at washington, d.c.
   var map = new google.maps.Map(
@@ -52,114 +52,114 @@ function initMap() {
 
   // The marker, positioned at Orange Theory
  
-  var marker = new google.maps.Marker({
+  var markerOrangeTheory = new google.maps.markerOrangeTheory({
   	 position:{lat: 38.901672, lng:-77.016350},
   	 map: map
   	});
 
-  var infoWindow1 = new google.maps.InfoWindow({
+  var infoWindow1 = new google.maps.InfoWindow1({
   	content: '<h1>Orange Theory</h1>'
   });
 
-  marker.addListener('click', function(){
-  	infoWindow1.open(map,marker);
+  OrangeTheorymarker.addListener('click', function(){
+  	infoWindow1.open(map,OrangeTheorymarker);
   });
 
 
 //The marker is positioned at Corepower
-  var marker = new google.maps.Marker({
+  var markerCorepower = new google.maps.markerCorepower({
   	 position:{lat: 38.900092, lng:-77.024149},
   	 map: map
   	});
 
-  var infoWindow2 = new google.maps.InfoWindow({
+  var infoWindow2 = new google.maps.InfoWindow2({
   	content: '<h1>Corepower</h1>'
   });
 
-  marker.addListener('click', function(){
-  	infoWindow2.open(map,marker);
+  markerCorepower.addListener('click', function(){
+  	infoWindow2.open(map,markerCorepower);
   });
 
   
 //The marker is positioned at F45
-  var marker = new google.maps.Marker({
+  var markerF = new google.maps.MarkerF({
   	 position:{lat: 38.916855, lng:-77.026642},
   	 map: map
   	 
   	});
 
-  var infoWindow3 = new google.maps.InfoWindow({
+  var infoWindow3 = new google.maps.InfoWindow3({
   	content: '<h1>F45 Fitness</h1>'
   });
 
-  marker.addListener('click', function(){
-  	infoWindow3.open(map,marker);
+  markerF.addListener('click', function(){
+  	infoWindow3.open(map,markerF);
   });
 
 
 
 //The Marker is positioned at 305 Fitness
-  var marker = new google.maps.Marker({
+  var marker3F = new google.maps.Marker3F({
   	 position:{lat: 38.920085, lng:-77.030798},
   	 map: map
   	 
   	});
 
-   var infoWindow4 = new google.maps.InfoWindow({
+   var infoWindow4 = new google.maps.InfoWindow4({
   	content: '<h1>305 Fitness</h1>'
   });
 
-  marker.addListener('click', function(){
-  	infoWindow4.open(map,marker);
+  marker3F.addListener('click', function(){
+  	infoWindow4.open(map,marker3F);
   });
 
 
 
 //Positioned at Barry's Bootcamp
-var marker = new google.maps.Marker({
+var markerBarry = new google.maps.MarkerBarry({
   	 position:{lat: 38.909298, lng:-77.044412},
   	 map: map
   	 
   	});
 
-  var infoWindow5 = new google.maps.InfoWindow({
+  var infoWindow5 = new google.maps.InfoWindow5({
   	content: '<h1>Corepower</h1>'
   });
 
-  marker.addListener('click', function(){
-  	infoWindow5.open(map,marker);
+  markerBarry.addListener('click', function(){
+  	infoWindow5.open(map,markerBarry);
   });
 
 
 //Marker is Fuse Pilates
-var marker = new google.maps.Marker({
+var markerFuse = new google.maps.markerFuse({
   	 position:{lat: 38.906014, lng:-77.032074},
   	 map: map
   	 
   	});
 
-  var infoWindow6 = new google.maps.InfoWindow({
+  var infoWindow6 = new google.maps.InfoWindow6({
   	content: '<h1>Fuse Pilates</h1>'
   });
 
-  marker.addListener('click', function(){
-  	infoWindow6.open(map,marker);
+  markerFuse.addListener('click', function(){
+  	infoWindow6.open(map,markerFuse);
   });
 
 
 //marker for exorcist steps
-var marker = new google.maps.Marker({
+var markerSteps = new google.maps.markerSteps({
   	 position:{lat: 38.9055444, lng:-77.0701639},
   	 map: map
   	 
   	});
  
- var infoWindow7 = new google.maps.InfoWindow({
+ var infoWindow7 = new google.maps.InfoWindow7({
   	content: '<h1>Exorcist Steps</h1>'
   });
 
-  marker.addListener('click', function(){
-  	infoWindow7.open(map,marker);
+  markerSteps.addListener('click', function(){
+  	infoWindow7.open(map,marker)Steps;
   });
 
 } 
